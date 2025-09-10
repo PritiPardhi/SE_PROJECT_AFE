@@ -1,0 +1,26 @@
+##Components Used
+
+1)BC547 Transistor
+2)IR Receiver LED + IR Emitter LED (IR Module)
+3)10KΩ Resistor
+4)1KΩ Resistor
+5)220Ω Resistor
+6)Red LED
+7)3V Water Pump with Pipe + Plastic Container
+8)Switch
+9)3.7V Li-ion Battery
+10)TP4056 Charging Module
+11)Jumper Wires
+
+##Working Principle
+
+1)The IR flame sensor detects fire (flame changes IR light intensity).
+2)The sensor output goes through resistor biasing into a BC547 transistor.
+3)The transistor acts as a switch:
+
+ i)Turns ON Red LED (fire alert)
+ ii)Activates Water Pump to spray water
+
+4)Once the flame is gone, the sensor output returns to normal, and the pump stops.
+
+
